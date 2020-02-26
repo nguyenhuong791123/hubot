@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: timja
+Build-Jdk: 1.8.0_222
+Extension-Name: slack
+Specification-Title: A Build status publisher that notifies channels o
+ n a Slack team
+Implementation-Title: slack
+Implementation-Version: 2.36
+Group-Id: org.jenkins-ci.plugins
+Short-Name: slack
+Long-Name: Slack Notification Plugin
+Url: https://github.com/jenkinsci/slack-plugin
+Compatible-Since-Version: 2.32
+Minimum-Java-Version: 1.8
+Plugin-Version: 2.36
+Hudson-Version: 2.164.3
+Jenkins-Version: 2.164.3
+Plugin-Dependencies: workflow-step-api:2.20,credentials:2.3.0,display-
+ url-api:2.3.2,jackson2-api:2.9.9.1,junit:1.28,mailer:1.28,matrix-proj
+ ect:1.14;resolution:=optional,plain-credentials:1.5,script-security:1
+ .64,structs:1.20,token-macro:2.1
+Plugin-Developers: Tim Jacomb:timja:
+

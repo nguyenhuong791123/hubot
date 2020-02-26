@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ataxexe
+Build-Jdk: 1.8.0_131
+Extension-Name: build-notifications
+Specification-Title: A plugin that sends notifications after a build run
+Implementation-Title: build-notifications
+Implementation-Version: 1.5.0
+Group-Id: tools.devnull
+Short-Name: build-notifications
+Long-Name: Build Notifications Plugin
+Plugin-Version: 1.5.0
+Hudson-Version: 2.46.2
+Jenkins-Version: 2.46.2
+Plugin-Developers: Marcelo "Ataxexe" Guimarães::ataxexe@devnull.tools
+

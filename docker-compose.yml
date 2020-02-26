@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  hubot:
+    container_name: hubot
+    build: .
+    depends_on:
+      - jenkins
+    environment:
+      - HUBOT_SLACK_TOKEN=xoxb-629435012208-965371589750-na9YBv3KHihOIkRZ3rOeeHx1
+      - HUBOT_JENKINS_URL=http://jenkins:8080/
+      - HUBOT_JENKINS_AUTH=admin:admin
+#      - PORT=8080
+
+  jenkins:
+    container_name: jenkins
+    image: jenkins/jenkins:lts
+    ports:
+      - 7080:8080
+    volumes:
+      - ./jenkins:/var/jenkins_home
+

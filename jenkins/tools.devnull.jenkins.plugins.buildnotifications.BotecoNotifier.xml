@@ -1,0 +1,4 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<tools.devnull.jenkins.plugins.buildnotifications.BotecoNotifier_-BotecoDescriptor plugin="build-notifications@1.5.0">
+  <endpoint></endpoint>
+</tools.devnull.jenkins.plugins.buildnotifications.BotecoNotifier_-BotecoDescriptor>

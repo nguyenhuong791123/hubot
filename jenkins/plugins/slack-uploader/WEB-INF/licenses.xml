@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='slack-uploader' version='1.7'><l:dependency name='Slack Upload Plugin' groupId='org.jenkins-ci.plugins' artifactId='slack-uploader' version='1.7' url='https://wiki.jenkins-ci.org/display/JENKINS/Slack+File+Uploader+Plugin'><l:description>A post-build uploader that uploads files to slack generated during build process</l:description></l:dependency></l:dependencies>
